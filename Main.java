@@ -16,6 +16,7 @@ public class Main {
         elements.put("Infix-Term", new HashMap<String, Integer>());
         elements.put("Relation-Formula", new HashMap<String, Integer>());
         elements.put("Circumfix-Term", new HashMap<String, Integer>());
+        elements.put("Attribute", new HashMap<String, Integer>());
 
         File [] files = dir.listFiles(); // pliki esx
         SAXReader reader = new SAXReader();
